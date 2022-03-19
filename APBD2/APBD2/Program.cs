@@ -38,9 +38,24 @@ namespace APBD2
                 Console.WriteLine(item);
             }
 
-            //DateTime
+            //DateTime - typ danych dla daty
 
+            // Parsowanie daty
+            var date = DateTime.Parse("2021-03-18");
+            Console.WriteLine(date);
+
+            // Analogicznie co "", ale ładniejsze rozwiązanie w C#
+            string wrt = string.Empty;
+
+            // Sprawdzenie czy string dostarczony jako argument jest nullem lub jest pusty
+            if (string.IsNullOrEmpty(wrt)) { }
+
+            // Sprawdzenie czy string dostarczony jako argument jest nullem lub składa się tylko z białych znaków
+            if (string.IsNullOrWhiteSpace(wrt)) { }
+            
             var hashSet = new HashSet<Student>(new MyComparer());
+
+            // hashSet.Add(obj) <- dodawanie elementu do HashSet
 
         }
     }
