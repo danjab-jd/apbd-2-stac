@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <Folder Include="MyLogs\" />
+    <Folder Include="MyLogs\" />
   </ItemGroup>
 
 </Project>

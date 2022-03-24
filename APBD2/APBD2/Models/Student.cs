@@ -6,6 +6,7 @@ namespace APBD2.Models
     public class Student
     {
         //prop
+        [JsonPropertyName("fName")]
         public string Name { get; set; }
         public string Surname { get; set; }
         public Study Study { get; set; }
